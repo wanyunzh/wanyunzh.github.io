@@ -1,3 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog
+title: Wanyun Zhou's Personal Website
+email: wzhou266@connect.hkust-gz.edu.cn
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal academic website for Wanyun Zhou.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wanyunzh.github.io" # the base hostname & protocol for your site
+github_username:  wanyunzh
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# --- 你的侧边栏代码在这里 ---
 # Site Author
 author:
   name             : "Wanyun Zhou"
