@@ -11,12 +11,15 @@ github_username:  wanyunzh
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+
+# --- 这就是之前丢失的关键主题设置 ---
+remote_theme: academicpages/academicpages.github.io
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# --- 你的侧边栏代码在这里 ---
+# --- 你的侧边栏代码（语法已清理干净） ---
 # Site Author
 author:
   name             : "Wanyun Zhou"
