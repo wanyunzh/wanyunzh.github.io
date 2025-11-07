@@ -1,131 +1,131 @@
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" 
-title                    : "Wanyun Zhou's Personal Website"
-title_separator          : "-"
-name                     : "Wanyun Zhou"
-description              : "Wanyun Zhou's academic portfolio" 
-url                      : "https://wanyunzh.github.io"
-baseurl                  : "" 
-repository               : "wanyunzh/wanyunzh.github.io"
+locale: "en-US"
+site_theme: "default"
+title: "Wanyun Zhou's Personal Website"
+title_separator: "-"
+name: "Wanyun Zhou"
+description: "Wanyun Zhou's academic portfolio"
+url: "https://wanyunzh.github.io"
+baseurl: ""
+repository: "wanyunzh/wanyunzh.github.io"
 
 # Site Author
 author:
-  avatar           : "/images/wanyunzh.png"
-  name             : "Wanyun Zhou"
-  pronouns         : 
-  bio              : 
-  location         : 
-  employer         : 
-  uri              : 
-  email            : "wzhou266@connect.hkust-gz.edu.cn" 
-  academia         : 
-  arxiv            : 
-  googlescholar    : 
-  inspire-hep      : 
-  impactstory      : 
-  orcid            : 
-  semantic         : 
-  pubmed           : 
-  researchgate     : 
-  scopus           : 
-  bitbucket        : 
-  codepen          : 
-  dribbble         : 
-  github           : "wanyunzh"
-  kaggle           :  
-  stackoverflow    : 
-  artstation       : 
-  bluesky          : 
-  facebook         : 
-  flickr           : 
-  foursquare       : 
-  goodreads        : 
-  google_plus      : 
-  keybase          : 
-  instagram        : 
-  lastfm           : 
-  linkedin         : 
-  mastodon         : 
-  medium           : 
-  pinterest        : 
-  soundcloud       : 
-  steam            : 
-  telegram         : 
-  tumblr           : 
-  twitter          : 
-  vine             : 
-  weibo            : 
-  wikipedia        : 
-  xing             : 
-  youtube          : 
-  zhihu            : 
+  avatar: "/images/wanyunzh.png"
+  name: "Wanyun Zhou"
+  pronouns:
+  bio:
+  location:
+  employer:
+  uri:
+  email: "wzhou266@connect.hkust-gz.edu.cn"
+  academia:
+  arxiv:
+  googlescholar:
+  inspire-hep:
+  impactstory:
+  orcid:
+  semantic:
+  pubmed:
+  researchgate:
+  scopus:
+  bitbucket:
+  codepen:
+  dribbble:
+  github: "wanyunzh"
+  kaggle:
+  stackoverflow:
+  artstation:
+  bluesky:
+  facebook:
+  flickr:
+  foursquare:
+  goodreads:
+  google_plus:
+  keybase:
+  instagram:
+  lastfm:
+  linkedin:
+  mastodon:
+  medium:
+  pinterest:
+  soundcloud:
+  steam:
+  telegram:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  wikipedia:
+  xing:
+  youtube:
+  zhihu:
 
 # Publication Category
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  
-breadcrumbs              : false 
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" 
-talkmap_link             : false      
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
 comments:
-  provider               : 
+  provider:
   disqus:
-    shortname            :
+    shortname:
   discourse:
-    server               : 
+    server:
   facebook:
-    appid                :
-    num_posts            : 
-    colorscheme          : 
+    appid:
+    num_posts:
+    colorscheme:
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" 
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601" 
+        format: "iso86LT"
 atom_feed:
-  hide                   : false     
-  path                   : 
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+  hide: false
+  path:
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  
-og_description           :  
+  username:
+  app_id:
+  publisher:
+og_image:
+og_description:
 social:
-  type                   : 
-  name                   : 
-  links: 
+  type:
+  name:
+  links:
 analytics:
-  provider               :  "false" 
+  provider: "false"
   google:
-    tracking_id          :
+    tracking_id:
 include:
   - .htaccess
   - _pages
@@ -239,9 +239,9 @@ defaults:
       share: true
 sass:
   sass_dir: _sass
-  style: compressed 
+  style: compressed
 permalink: /:categories/:title/
-timezone: Etc/UTC 
+timezone: Etc/UTC
 plugins:
   - jekyll-feed
   - jekyll-gist
