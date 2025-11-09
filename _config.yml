@@ -1,130 +1,52 @@
-# Basic Site Settings
-locale: "en-US"
-site_theme: "default"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog
 title: "Wanyun Zhou's Personal Website"
-title_separator: "-"
-name: "Wanyun Zhou"
-url: "https://wanyunzh.github.io"
-baseurl: ""
+email: "wzhou266@connect.hkust-gz.edu.cn"
+description: "Wanyun Zhou's academic portfolio"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wanyunzh.github.io" # the base hostname & protocol for your site
+github_username: "wanyunzh"
 repository: "wanyunzh/wanyunzh.github.io"
 
+# Build settings
+markdown: kramdown
+
+# --- 这就是之前丢失的关键主题设置 ---
+remote_theme: academicpages/academicpages.github.io
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# --- 你的侧边栏代码（100% 干净无空格错误） ---
 # Site Author
 author:
-  avatar: "/images/zhouwy_fig.png"
   name: "Wanyun Zhou"
-  pronouns:
-  bio:
-  location:
-  employer:
-  uri:
+  avatar: "/images/wanyunzh.png"
   email: "wzhou266@connect.hkust-gz.edu.cn"
-  academia:
-  arxiv:
-  googlescholar:
-  inspire-hep:
-  impactstory:
-  orcid:
-  semantic:
-  pubmed:
-  researchgate:
-  scopus:
-  bitbucket:
-  codepen:
-  dribbble:
-  github: "wanyunzh"
-  kaggle:
-  stackoverflow:
-  artstation:
-  bluesky:
-  facebook:
-  flickr:
-  foursquare:
-  goodreads:
-  google_plus:
-  keybase:
-  instagram:
-  lastfm:
-  linkedin:
-  mastodon:
-  medium:
-  pinterest:
-  soundcloud:
-  steam:
-  telegram:
-  tumblr:
-  twitter:
-  vine:
-  weibo:
-  wikipedia:
-  xing:
-  youtube:
-  zhihu:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:wzhou266@connect.hkust-gz.edu.cn"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wanyunzh"
 
-# Publication Category
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
-
+# --- 网站默认配置（必须保留） ---
 # Site Settings
-teaser:
+locale: "en-US"
 breadcrumbs: false
 words_per_minute: 160
-future: true
 read_more: "disabled"
-talkmap_link: false
 comments:
-  provider:
-  disqus:
-    shortname:
-  discourse:
-    server:
-  facebook:
-    appid:
-    num_posts:
-    colorscheme:
-staticman:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "gh-pages"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
+  provider: # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
 atom_feed:
   hide: false
-  path:
-google_site_verification:
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image:
-og_description:
-social:
-  type:
-  name:
-  links:
 analytics:
-  provider: "false"
-  google:
-    tracking_id:
+  provider: false
+
+# Reading Files
 include:
   - .htaccess
   - _pages
@@ -161,11 +83,15 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -175,6 +101,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+# Collections
 collections:
   teaching:
     output: true
@@ -188,7 +116,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+
+# Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -199,12 +130,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -213,6 +146,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications
   - scope:
       path: ""
       type: publications
@@ -221,6 +155,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -229,6 +164,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _talks
   - scope:
       path: ""
       type: talks
@@ -236,32 +172,12 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
 permalink: /:categories/:title/
-timezone: Etc/UTC
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
