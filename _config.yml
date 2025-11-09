@@ -10,7 +10,7 @@ repository: "wanyunzh/wanyunzh.github.io"
 
 # Site Author
 author:
-  avatar: "/images/wanyunzh.png"
+  avatar: <img src="/images/zhouwy_fig.png" alt="Profile Picture">
   name: "Wanyun Zhou"
   pronouns:
   bio:
