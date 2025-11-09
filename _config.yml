@@ -1,93 +1,159 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Site Settings
-title                    : "Wanyun Zhou"
-repository               : "wanyunzh/wanyunzh.github.io"
-# google_scholar_stats_use_cdn : true
-
-# # google analytics
-# google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
-
-# # SEO Related
-# google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-# bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-# baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+# Basic Site Settings
+locale: "en-US"
+site_theme: "default"
+title: "Wanyun Zhou's Personal Website"
+title_separator: "-"
+name: "Wanyun Zhou"
+url: "https://wanyunzh.github.io"
+baseurl: ""
+repository: "wanyunzh/wanyunzh.github.io"
 
 # Site Author
 author:
-  name             : "Wanyun Zhou"
-  avatar           : "images/zhouwy_fig.png"
-  bio              : 
-  location         : 
-  employer         :
-  pubmed           : 
-  googlescholar    : 
-  email            : "wzhou266@connect.hkust-gz.edu.cn"
-  researchgate     :  
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "wanyunzh"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  avatar: "/images/wanyunzh.png"
+  name: "Wanyun Zhou"
+  pronouns:
+  bio:
+  location:
+  employer:
+  uri:
+  email: "wzhou266@connect.hkust-gz.edu.cn"
+  academia:
+  arxiv:
+  googlescholar:
+  inspire-hep:
+  impactstory:
+  orcid:
+  semantic:
+  pubmed:
+  researchgate:
+  scopus:
+  bitbucket:
+  codepen:
+  dribbble:
+  github: "wanyunzh"
+  kaggle:
+  stackoverflow:
+  artstation:
+  bluesky:
+  facebook:
+  flickr:
+  foursquare:
+  goodreads:
+  google_plus:
+  keybase:
+  instagram:
+  lastfm:
+  linkedin:
+  mastodon:
+  medium:
+  pinterest:
+  soundcloud:
+  steam:
+  telegram:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  wikipedia:
+  xing:
+  youtube:
+  zhihu:
 
+# Publication Category
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
 
-# Reading Files
+# Site Settings
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+comments:
+  provider:
+  disqus:
+    shortname:
+  discourse:
+    server:
+  facebook:
+    appid:
+    num_posts:
+    colorscheme:
+staticman:
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
+  transforms:
+    email: "md5"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
+atom_feed:
+  hide: false
+  path:
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
+twitter:
+  username:
+facebook:
+  username:
+  app_id:
+  publisher:
+og_image:
+og_description:
+social:
+  type:
+  name:
+  links:
+analytics:
+  provider: "false"
+  google:
+    tracking_id:
 include:
   - .htaccess
   - _pages
   - files
 exclude:
-  - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - .github
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - CHANGELOG
+  - Capfile
   - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
   - gulpfile.js
+  - LICENSE
+  - local
   - log
   - node_modules
-  - package.json
+  - package.json*
+  - Rakefile
+  - README
   - tmp
   - vendor
 keep_files:
@@ -95,17 +161,11 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -115,47 +175,92 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Defaults
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 defaults:
-  # _pages
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   - scope:
       path: ""
       type: pages
     values:
-      layout: default
+      layout: single
       author_profile: true
-
-
-# Sass/SCSS
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
+  style: compressed
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
+timezone: Etc/UTC
 plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+  - jemoji
 whitelist:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 compress_html:
   clippings: all
   ignore:
