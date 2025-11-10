@@ -15,7 +15,7 @@ My research interests are primarily in:
 * **Quantitative Finance**: Focusing on social media and news-driven market analysis, financial time series analysis, and graph neural networks for stock market prediction and analysis.
 I am passionate about **adapting** cutting-edge AI techniques to solve complex challenges in financial markets and scientific discovery.
 
-## 🎓 Education Experiences
+## 🎓 Education 
 
 * **09/2023 – Now:** Ph.D. in Data Science and Analytics
     * The Hong Kong University of Science and Technology (Guangzhou), China
