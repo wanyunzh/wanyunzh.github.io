@@ -12,18 +12,16 @@ repository: "wanyunzh/wanyunzh.github.io"
 # Build settings
 markdown: kramdown
 
-# --- 这就是之前丢失的关键主题设置 ---
 remote_theme: academicpages/academicpages.github.io
 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# --- 你的侧边栏代码（100% 干净无空格错误） ---
 # Site Author
 author:
   name: "Wanyun Zhou"
-  avatar: "/images/wanyunzh.png"
+  avatar: "zhouwy_fig.png"
   email: "wzhou266@connect.hkust-gz.edu.cn"
   links:
     - label: "Email"
@@ -33,7 +31,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wanyunzh"
 
-# --- 网站默认配置（必须保留） ---
+
 # Site Settings
 locale: "en-US"
 breadcrumbs: false
