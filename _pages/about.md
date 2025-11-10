@@ -48,7 +48,7 @@ I am passionate about adapting cutting-edge AI techniques to solve complex chall
    * **Wanyun Zhou**, Yufei Liu, Juntao Liu with Shandong University
 * **[Accepted] "[Quantbench: Benchmarking ai methods for quantitative investment.](https://arxiv.org/pdf/2504.18600)"**
     * Saizhuo Wang, Hao Kong, Jiadong Guo, Fengrui Hua, Yiyan Qi, **Wanyun Zhou**, Jiahao Zheng, Xinyu Wang, Lionel M. Ni, Jian Guo
-    * *[Please add venue, e.g., Proceedings of...]*
+    * *Frontiers of Information Technology & Electronic Engineering, 2025*
 * **[Arxiv] "[FinKario: Event-Enhanced Automated Construction of Financial Knowledge Graph.](https://arxiv.org/pdf/2508.00961)"**
     * Xiang Li, Penglei Sun, **Wanyun Zhou**, Zikai Wei, Yongqi Zhang, Xiaowen Chu
     * *Submitted to ACL 2026.*
