@@ -11,7 +11,7 @@ I am Wanyun Zhou, a Ph.D. student in Data Science and Analytics at The Hong Kong
 
 My research interests are primarily in:
 
-* **AI for Science**: Applying advanced AI techniques to complex scientific domains, including physics (modeling partial differential equations for multiple steady-state and unsteady physical systems), biology (peptide property prediction, drug-target interaction prediction, protein pre-training), and quantum chemistry.
+* **AI for Science**: Applying advanced AI techniques to complex scientific domains, including physics (modeling and solving partial differential equations for multiple steady-state and unsteady physical systems), biology (peptide property prediction, drug-target interaction prediction, protein pre-training), and quantum chemistry.
 * **Quantitative Finance**: Focusing on social media and news-driven market analysis, financial time series analysis, and graph neural networks for stock market prediction and analysis.
 I am passionate about **adapting** cutting-edge AI techniques to solve complex challenges in financial markets and scientific discovery.
 
