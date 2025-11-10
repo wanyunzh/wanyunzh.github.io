@@ -22,14 +22,10 @@ plugins:
 author:
   name: "Wanyun Zhou"
   avatar: "zhouwy_fig.png"
-  email: "wzhou266@connect.hkust-gz.edu.cn"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:wzhou266@connect.hkust-gz.edu.cn"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "wanyunzh"
+  email: "wzhou266@connect.hkust-gz.edu.cn" #
+  github: "wanyunzh"                   # 
+  # googlescholar: "你的Google Scholar ID"
+  linkedin: "wanyun-zhou-06a07626b/"
 
 
 # Site Settings
