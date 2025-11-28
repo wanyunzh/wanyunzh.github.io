@@ -26,9 +26,10 @@ I am passionate about adapting cutting-edge AI techniques to solve complex chall
 
 ## 📰 News
 
-* **2025-10 (Upcoming)** Our paper "DeltaLag: Learning Dynamic Lead-Lag Patterns in Financial Markets." will be presented as an **Oral Presentation** at the 6th ACM International Conference on AI in Finance (ICAIF 2025).
-* **2025-10** Our paper "Automated Machine Learning for Physics-Informed Convolutional Neural Networks" is accepted by **Nature Communications Physics**. 
-* **2025-10** Our paper "Unleashing Expert Opinion from Social Media for Stock Prediction" is accepted by **IEEE Transactions on Knowledge and Data Engineering (TKDE)**.
+* **2025-11** Our paper "DeltaLag: Learning Dynamic Lead-Lag Patterns in Financial Markets." was accepted and presented as an **Oral Presentation** at the 6th ACM International Conference on AI in Finance (ICAIF 2025).
+* **2025-11** Our paper "Automated Machine Learning for Physics-Informed Convolutional Neural Networks" is accepted by **Nature Communications Physics**. 
+* **2025-11** Our paper "Unleashing Expert Opinion from Social Media for Stock Prediction" is accepted by **IEEE Transactions on Knowledge and Data Engineering (TKDE)**.
+* **2025-11** Our paper "DTBind: A Mechanism-driven Deep Learning Framework for Accurate Prediction of Drug–target Molecular Recognition" is accepted by the **Science** partner journal **Research**. 
 
 ## 📚 Selected Publications
 
@@ -44,15 +45,17 @@ I am passionate about adapting cutting-edge AI techniques to solve complex chall
 * **[Accepted] "[TriNet: A tri-fusion neural network for the prediction of anticancer and antimicrobial peptides.](https://www.cell.com/patterns/pdfExtended/S2666-3899(23)00039-9)"**
     * **Wanyun Zhou**, Yufei Liu, Yingxin Li, Siqi Kong, Weilin Wang, Boyun Ding, Jiyun Han, Chaozhou Mou, Xin Gao, Juntao Liu
     * *Patterns 4.3 (2023). (Cell Sub-journal, IF: 7.4)*
-* **[Granted Patent] "A method and system for recognizing antimicrobial peptides and anti-inflammatory peptides."**
-   * **Wanyun Zhou**, Yufei Liu, Juntao Liu with Shandong University
+* **[Granted Patent] "[Method and system for predicting anti-cancer peptide and antibacterial peptide based on deep neural network.](https://patents.google.com/patent/CN115512396A/en)"**
+   * Juntao Liu, **Wanyun Zhou**, Yufei Liu with Shandong University
+* **[Accepted] "[DTBind: A Mechanism-driven Deep Learning Framework for Accurate Prediction of
+Drug–target Molecular Recognition](https://spj.science.org/doi/10.34133/research.1022)"**
+    * Qiuyu Li, Zeyu Xu, Yanhao Zhu, **Wanyun Zhou**, Mingming Guan, Shiqing Zhao, Mengyuan Liu, Bin Liu, Juntao Liu
+    * *Research, 2025*
 * **[Accepted] "[Quantbench: Benchmarking ai methods for quantitative investment.](https://arxiv.org/pdf/2504.18600)"**
     * Saizhuo Wang, Hao Kong, Jiadong Guo, Fengrui Hua, Yiyan Qi, **Wanyun Zhou**, Jiahao Zheng, Xinyu Wang, Lionel M. Ni, Jian Guo
-    * *Frontiers of Information Technology & Electronic Engineering, 2025*
-* **[Arxiv] "[FinKario: Event-Enhanced Automated Construction of Financial Knowledge Graph.](https://arxiv.org/pdf/2508.00961)"**
+    * *Research, 2025.*
+* **[Under review] "[FinKario: Event-Enhanced Automated Construction of Financial Knowledge Graph.](https://arxiv.org/pdf/2508.00961)"**
     * Xiang Li, Penglei Sun, **Wanyun Zhou**, Zikai Wei, Yongqi Zhang, Xiaowen Chu
-    * *Submitted to ACL 2026.*
-* **[Under Review] "DTBind: a mechanism-driven deep learning framework for accurate prediction of drug-target molecular recognition."**
-    * Qiuyu Li, Zeyu Xu, Yanhao Zhu, **Wanyun Zhou**, Mingming Guan, Shiqing Zhao, Mengyuan Liu, Bin Liu, Juntao Liu
-    * *Under review in Journal of Advanced Research.*
+    * *Under review in ACL 2026.*
+
 
